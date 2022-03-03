@@ -6,7 +6,7 @@ Label assignment plays a significant role in modern object detection models. Det
 
 ## Approach
 <div style="color:#0000FF" align="center">
-<img src="model.pdf" width="430"/>
+<img src="model.png" width="430"/>
 </div>
 
 
