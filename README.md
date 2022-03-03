@@ -24,7 +24,7 @@ Please note that:
 
 ## Training
 
-The following command line will train ATSS_R_50_FPN_1x on 8 GPUs with Synchronous Stochastic Gradient Descent (SGD):
+The following command line will train Dynamic_ATSS_R_50_FPN_1x on 8 GPUs with Synchronous Stochastic Gradient Descent (SGD):
 
     python -m torch.distributed.launch \
         --nproc_per_node=8 \
