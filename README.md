@@ -20,7 +20,7 @@ The inference command line on coco minival split:
 Please note that:
 1) If your model's name is different, please replace `Dynamic_ATSS_R_50_FPN_1x.pth` with your own.
 2) If you enounter out-of-memory error, please try to reduce `TEST.IMS_PER_BATCH` to 1.
-3) If you want to evaluate a different model, please change `--config-file` to its config file (in [configs/atss](configs/atss)) and `MODEL.WEIGHT` to its weights file.
+3) If you want to evaluate a different model, please change `--config-file` to its config file (in [configs/atss](configs/dynamic_atss)) and `MODEL.WEIGHT` to its weights file.
 
 ## Training
 
