@@ -37,7 +37,7 @@ The following command line will train Dynamic_ATSS_R_50_FPN_1x on 8 GPUs with Sy
 Please note that:
 1) If you want to use fewer GPUs, please change `--nproc_per_node` to the number of GPUs. No other settings need to be changed. The total batch size does not depends on `nproc_per_node`. If you want to change the total batch size, please change `SOLVER.IMS_PER_BATCH` in [configs/dynamic_atss/dynamic_atss_R_50_FPN_1x.yaml](configs/dynamic_atss/dynamic_atss_R_50_FPN_1x.yaml).
 2) The models will be saved into `OUTPUT_DIR`.
-3) If you want to train ATSS with other backbones, please change `--config-file`.
+3) If you want to train Dynamic ATSS with other backbones, please change `--config-file`.
 
 
 ## Citations
