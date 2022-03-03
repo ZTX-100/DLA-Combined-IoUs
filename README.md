@@ -4,6 +4,11 @@
 
 Label assignment plays a significant role in modern object detection models. Detection models may yield totally different performances with different label assignment strategies. For anchor-based detection models, the IoU threshold between the anchors and their corresponding ground truth bounding boxes is the key element since the positive samples and negative samples are divided by the IoU threshold. Early object detectors simply utilize a fixed threshold for all training samples, while recent detection algorithms focus on adaptive thresholds based on the distribution of the IoUs to the ground truth boxes. In this paper, we introduce a simple and effective approach to perform label assignment dynamically based on the training status with predictions. By introducing the predictions in label assignment, more high-quality samples with higher IoUs to the ground truth objects are selected as the positive samples, which could reduce the discrepancy between the classification scores and the IoU scores, and generate more high-quality boundary boxes. Our approach shows improvements in the performance of the detection models with the adaptive label assignment algorithm and lower bounding box losses for those positive samples, indicating more samples with higher quality predicted boxes are selected as positives. Our paper is available at [link](https://arxiv.org/abs/2201.09396).
 
+## Approach
+<div style="color:#0000FF" align="center">
+<img src="model.pdf" width="430"/>
+</div>
+
 
 ## Installation
 The implementation of our algorithm is based on [ATSS](https://github.com/sfzhang15/ATSS). Please check [ATSS](https://github.com/sfzhang15/ATSS) and [INSTALL.md](INSTALL.md) for more installation instructions.
