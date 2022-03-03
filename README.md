@@ -46,7 +46,6 @@ Please note that:
 
 
 ## Citations
-Please cite our paper in your publications if it helps your research:
 ```
 @article{zhang2022dynamic,
   title={Dynamic Label Assignment for Object Detection by Combining Predicted and Anchor IoUs},
