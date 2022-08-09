@@ -48,9 +48,13 @@ Please note that:
 ## Citations
 ```
 @article{zhang2022dynamic,
-  title={Dynamic Label Assignment for Object Detection by Combining Predicted and Anchor IoUs},
-  author={Zhang, Tianxiao and Sharda, Ajay and Luo, Bo and Wang, Guanghui},
-  journal={arXiv preprint arXiv:2201.09396},
-  year={2022}
+  title={Dynamic Label Assignment for Object Detection by Combining Predicted IoUs and Anchor IoUs},
+  author={Zhang, Tianxiao and Luo, Bo and Sharda, Ajay and Wang, Guanghui},
+  journal={Journal of Imaging},
+  volume={8},
+  number={7},
+  pages={193},
+  year={2022},
+  publisher={Multidisciplinary Digital Publishing Institute}
 }
 ```
